@@ -1,0 +1,50 @@
+header {
+    text-align: center;
+}
+body, p, h1, img {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark gray text color */
+    text-align: center;
+    padding: 20px;
+    background-image: url('https://168807.lp.tobiz.net/img/47-fon.png');
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+/* Add spacing and styling to the images */
+img[src="https://168807.lp.tobiz.net/cicons/013-atv.svg"],
+img[src="https://168807.lp.tobiz.net/cicons/004-kayak.svg"],
+img[src="https://168807.lp.tobiz.net/cicons/043-life-saver.svg"],
+img[src="https://168807.lp.tobiz.net/cicons/025-hang-gliding.svg"],
+img[src="https://168807.lp.tobiz.net/cicons/049-art-therapy.svg"],
+img[src="https://168807.lp.tobiz.net/cicons/018-surfing.svg"] {
+    border: 2px solid #ffcc00; /* Good yellow border */
+    border-radius: 50%;
+    padding: 10px;
+}
+
+/* Center text under images */
+p:nth-child(2n) {
+    margin-bottom: 40px;
+}
